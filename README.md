@@ -15,7 +15,7 @@ The entire process works by switching the blue component of an RGB pixel off, so
 
 This practice can work especially well if the starting message is also encrypted.
 
-Note: The bitmap handling files were provided by the instructor.
+Note: The bytes and bitmap handling files were provided by the instructor.
 
 ## Built With
 
