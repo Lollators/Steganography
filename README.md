@@ -1,6 +1,6 @@
 # Steganography
 
-Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. ([ead more about it on Wikipedia](https://en.wikipedia.org/wiki/Steganography)).
+Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. ([read more about it on Wikipedia](https://en.wikipedia.org/wiki/Steganography)).
 
 This project was proposed by Professor Allen and his COP 2001 - Programming Methodology class.
 
@@ -14,6 +14,8 @@ This project is aimed towards creating a software that is able to take in a 8bit
 The entire process works by switching the blue component of an RGB pixel off, so that over 8 pixels we can encode 1 character of the string message. At the end of the string, padding is added in order to be able to know when to stop reading the bitmap file. Once the message is encoded in the picture, the user is not going to be able to notice any changes from the original (although information has been added).
 
 This practice can work especially well if the starting message is also encrypted.
+
+Note: The bitmap handling files were provided by the instructor.
 
 ## Built With
 
